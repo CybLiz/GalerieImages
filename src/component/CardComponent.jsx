@@ -36,7 +36,7 @@ export default function CardComponent({ image }) {
                 >
                     {image.categories.map((cat, index) => (
                         <p key={index} style={{
-                            margin: 0, backgroundColor: "lightblue", borderRadius: "10px", padding:"5px"
+                            margin: 0, backgroundColor: "lightblue", borderRadius: "10px", padding: "5px"
                         }}>
                             {cat}
                         </p>
