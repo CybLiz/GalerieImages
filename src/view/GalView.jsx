@@ -84,11 +84,11 @@ export default function GalView() {
                     gap: "10px",
                 }}
             >
-
-
-                {IMAGES.map((image) => (
+                {filteredImages.map((image) => (
                     <CardComponent key={image.id} image={image} />
                 ))}
+
+
             </div>
 
         </div>

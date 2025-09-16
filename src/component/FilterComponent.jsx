@@ -6,7 +6,7 @@ export default function FilterComponent({ categories = [], onFilter }) {
             {categories.map((cat, index) => (
                 <p
                     key={index}
-                    onClick={() => onFilter}
+                    onClick={() => onFilter(cat)}
                     style={{
                         margin: 0,
                         backgroundColor: "lightblue",
